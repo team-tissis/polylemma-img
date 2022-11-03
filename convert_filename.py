@@ -10,5 +10,5 @@ if __name__ == '__main__':
     existed_files = len(img_dir.files("*.png"))
 
     for i, img_filename in enumerate(img_filenames):
-        idx = i + existed_files
+        idx = i + existed_files + 1
         shutil.move(img_filename, img_dir / ("%s.png" % idx))

@@ -6,3 +6,5 @@
     ```bash
     $ python3 convert_filename.py
     ```
+
+    index は 1 から始まります
